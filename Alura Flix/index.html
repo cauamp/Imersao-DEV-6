@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+	<link rel="icon"
+		href="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Ilustra%C3%A7%C3%A3o-c%C3%A9rebro+1.png">
+	<title>Alura Flix</title>
+
+
+	<div class="container">
+		<h1 class="page-title">
+			Aluraflix
+		</h1>
+		<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+			alt="">
+	</div>
+	<a href="https://alura.com.br/" target="_blank">
+		<img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+	</a>
+</head>
+
+<body>
+	<input type='text' id='inserirNomeFilmeInput' placeholder='Nome do Filme' autocomplete="off">;
+	<input type='url' id='inserirUrlFilmeInput' placeholder='Capa do Filme' autocomplete="off">;
+	<input type='url' id='inserirTrailerFilmeInput' placeholder='Trailer do Filme' autocomplete="off">;
+	<br></br>
+	<button type='button' id='inserirFilmeBtn'> Inserir Filme </button>
+	<button type='button' id='removerFilmeBtn'> Remover Filme </button>
+	<br></br>
+
+	<div id="listaFilmesDiv"></div>
+
+</body>
+</html>

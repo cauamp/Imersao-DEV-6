@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" href="https://pbs.twimg.com/media/FLBIXWLWQAk4Q7_.jpg">
+    <title>Jogo da Velha da Alura</title>
+</head>
+
+<body>
+    <h1>Jogo da Velha da Alura</h1>
+
+    <div class="tabela">
+        <table style="max-width: 90%">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Foto</th>
+                    <th>Vitórias</th>
+                    <th>Empates</th>
+                    <th>Derrotas</th>
+                    <th>Pontos</th>
+                    <th colspan="2">Ações</th>
+                </tr>
+            </thead>
+            <tbody id="tabelaJogadores">
+
+            </tbody>
+        </table>
+    </div>
+    <br></br>
+    <button onClick="zerarPontos()">Zerar Pontuação</button>
+    <button onClick="" id="habilitaNovoJogador">Adicionar Jogador</button>
+    <br></br>
+    <div class=novoJogadorDiv>
+        <form>
+            <input type="text" placeholder='Nome do Jogador' id='nomeNovoJogador' required>
+            <input type="url" placeholder='Endereço da Foto' id='fotoNovoJogador' required>
+            <input type="submit" value:"Adicionar" onClick=adicionarJogador()>
+        </form>
+    </div>
+</body>
+
+</html>

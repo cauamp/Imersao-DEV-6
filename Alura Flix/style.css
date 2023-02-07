@@ -1,0 +1,125 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background-aluraflix.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: overlay;
+  }
+  
+  body::-webkit-scrollbar {
+      width: 8px; /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+      background: transparent; /* color of the tracking area */
+      opacity: 0.2;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+      background-color: transparent; /* color of the scroll thumb */
+      border-radius: 20px; /* roundness of the scroll thumb */
+      border: 3px solid transparent; /* creates padding around scroll thumb */
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 300px;
+  }
+  
+   p > img {
+  
+    max-height: 300px;
+    display: inline-block	;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  
+   p > img:hover {
+  
+    cursor: pointer;
+    box-shadow: 7px 7px 15px black;
+    transition: all 0.5s ease;  
+    max-height: 310px;
+    filter: grayscale(100%) brightness(50%) blur(0.5px);
+  }
+  
+  #listaFilmesDiv > p{
+  
+    color: white;
+    display: inline-block;
+    flex-direction: column;
+    display: inline-block	;
+    padding: 5px;
+    max-height: 300px;
+    width: 200px;
+  
+  }
+  
+  #listaFilmesDiv > a{
+    color: white;
+    display: inline-block;
+    flex-direction: column;
+    text-decoration: none; 
+    width: 230px;
+    max-height: 350px;
+    margin: 10px 10px 10px;
+    padding: none;
+  }
+  
+  input{
+    margin-top:10px;
+    border-radius:8px;
+    font-size:15px;
+    font-weight: bold;
+    font-family: "Roboto Mono", monospace;
+  }
+  
+  button{
+    margin-top:10px;
+    border-radius:8px;
+    font-size:15px;
+    font-weight: bold;
+    font-family: "Roboto Mono", monospace;
+    background-color: #da1e26;
+    color: white;
+  }
+  
+  button:hover{
+    cursor: pointer;
+    opacity: 0.9;
+  }

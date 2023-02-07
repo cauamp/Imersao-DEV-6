@@ -1,0 +1,105 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Background.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 160vh;
+    color: white;
+    overflow-y: overlay;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+    /* color of the tracking area */
+    opacity: 0.2;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    /* color of the scroll thumb */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 3px solid transparent;
+    /* creates padding around scroll thumb */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+body>img {
+    margin: 0 10px;
+}
+
+img {
+    max-height: 250px;
+}
+
+.conversor-ilustration {
+    max-height: 350px;
+    max-width: 350px;
+}
+
+.conversorUI {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    font-size: 25px;
+    height: 20vh;
+    color: white;
+}
+
+.btn {
+    color: white;
+    margin-top: 15px;
+    border: 1px solid #da1e26;
+    background-color: #da1e26;
+    border-radius: 15px;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        height: 200vh;
+    }
+
+    .conversor-ilustration {
+        max-width: 150px;
+    }
+}

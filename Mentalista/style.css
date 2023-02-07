@@ -1,0 +1,144 @@
+html, body {
+    max-width: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
+      overflow-y: hidden;
+    
+  }
+  body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background_mentalista.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100em;
+    color: white;
+  }
+  
+  body::-webkit-scrollbar {
+      width: 9px; /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+      background: transparent; /* color of the tracking area */
+      opacity: 0.2;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+      background-color: transparent; /* color of the scroll thumb */
+      border-radius: 20px; /* roundness of the scroll thumb */
+      border: 3px solid transparent; /* creates padding around scroll thumb */
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 350px;
+  }
+  
+  #bgnBtn{
+      margin-top:15px;
+      border-radius:15px;
+      font-size:20px;
+      font-weight: bold;
+      font-family: "Avenir Next", "Avenir", sans-serif;
+  }
+  #bgnBtn:hover{
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  
+  .easy{
+    border: 3px solid green;
+    background-color: green;
+  
+  }
+  .mid{
+    border: 3px solid orange;
+    background-color: orange;
+  
+  }
+  
+  .hard{
+    border: 3px solid red;
+    background-color: red;
+  
+  }
+  
+  .seletor{
+    display: show;
+  }
+  
+  .contador{
+    display: none;
+  }
+  
+  .playAgain{
+    display: none;
+  }
+  
+  
+  @media only screen and (max-width:700px){
+    body{
+      height: 200vh;
+    }
+    img {
+      max-width: 150px;
+  }
+  
+  }
+  
+  .contador > input{  
+    outline: none;  width: 200px;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    box-shadow: 4px 4px black;    
+    border-radius:15px;     
+    font-family: "Avenir Next", "Avenir", sans-serif;
+    
+  }
+  .contador > button{  
+   border: 2px solid black;
+    box-shadow: 4px 4px black;
+    background: #ccc;
+    outline: none;
+  }
+  
+  .playAgain > button { border: 2px solid black;
+    box-shadow: 4px 4px black;
+    background: #ccc;
+    outline: none;
+    font-family: "Avenir Next", "Avenir", sans-serif;
+  }

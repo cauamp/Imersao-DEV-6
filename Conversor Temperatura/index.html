@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+	<title>Conversor de Temperatura</title>
+	<link rel="icon" href="https://www.pngall.com/wp-content/uploads/5/Chemist-PNG-HD-Image.png">
+
+	<div class="container">
+		<h1 class="page-title">
+			Conversor de Temperatura
+		</h1>
+
+		<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+			alt="">
+	</div>
+	<a href="https://alura.com.br/" target="_blank">
+		<img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+		<img src="https://www.pngall.com/wp-content/uploads/5/Chemist-PNG-HD-Image.png" class="conversor-ilustration">
+	</a>
+</head>
+
+<body>
+	<div class="container">
+		<form class="conversorUI" method="post">
+			<label>Grau Celsius</label>
+			<input type="number" id="tempEmCelsius" value="0">
+			<br><br>
+			<label>Grau Fahrenheit</label>
+			<input type="number" id="tempEmFahrenheit" value="32">
+			<br><br>
+			<label>Kelvin</label>
+			<input type="number" id="tempEmKelvin" value="273.15">
+			<br><br>
+			<input type="button" id="botaoConverte" onclick="javascript:converter();" name="name" value="Converter" class="btn">
+
+		</form>
+	</div>
+</body>
+
+</html>
